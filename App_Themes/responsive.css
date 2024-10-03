@@ -1,0 +1,305 @@
+
+.headermaster{ display:block}
+
+
+
+.baskanresponsive{ display:none}        
+        
+  
+.arkaplanbaskan{background: url(/upload/tr/tasarim/web/baskan_back.jpg) no-repeat left top; background-size: contain; height: 538px}      
+        
+        
+      
+
+/*********sabitler*****************/
+/**********silme*******************/
+/*********sabitler*****************/
+/**********silme*******************/
+/*********sabitler*****************/
+
+
+.headermaster_yukseklik{height: 50px}
+.headeryol_yukseklik{height: 45px; }
+.headeryol_serit_yukseklik{background-color: #95806a; height: 11px}
+.slider{width: 100%; height: 384px; margin: 0px;padding: 0px}
+.responsive_div_ortalama{}
+.responsive_div_ortalama_icerikler{ padding-left:80px; padding-right:70px}
+.responsive_div_ortalama_album_kat{ padding-left:0px}
+.responsive_div_ortalama_album_ic{ padding-left:18px}
+.responsive_div_ortalama_video_kat{ padding-left:8px}
+.responsive_div_ortalama_video_ic{ padding-left:78px}
+.album_kat_ortalama{ padding:0 10px}
+.ozel_tasarim_dortlu_liste_divolcu{float: left; width: 500px}
+.ozel_tasarim_dortlu_liste_divboslukolcu{float: left; width: 16px}
+
+/*Genel Ayarlar*/
+.kayit_detay{color: #787676; font-family: Ozel; font-size: 16px;}
+.ilet_yorum{ font-size:16px; font-family:Ozel}
+.ilet_yorum:hover{ font-size:16px; font-family:Ozel}
+.geributon{ width:7%}
+.headeryazi{font-family: Ozel; font-size: 34px; color: #03316f}
+.header_yol{float: left}
+.dlist_kategori_back{ background: url(/upload/tr/tasarim/genel/kategori_back3.gif) no-repeat left top; width:571px;  height: 138px}
+.dlist_kategori_baslik{font-size: 25px; color: #1b9dbd; font-family: Ozel_b; }
+.dlist_kategori_baslik:hover{font-size: 25px; color: #1b9dbd; font-family: Ozel_b;  }
+.icerikkategori_ozeltsarim{float: left}
+.header_ic_genislik{width:100%}
+/******************/
+
+
+/*haber arşiv*/
+
+.genissayfa_solsutun{ width:938px; float:left}
+.genissayfa_ortasutun{width: 13px; float:left}
+.genissayfa_sagsutun{width: 249px; float:left}
+.haberarsivresim{width:155px; height:103px}
+.haberarsivresimsutun{ width: 195px}
+/******************/
+
+/*form textbox başlangıç*/
+.textbox{border: #d0d0d0 1px solid; padding: 4px; width: 200px; font-family: Arial; height: 20px; color: #545454; font-size: 13px;}
+.textbox_iletyorum{border: #d0d0d0 1px solid; border-radius:5px; padding: 4px; width: 500px; font-family: Arial; height: 20px; color: #545454; font-size: 13px;}
+.textboxtrh{border: #d0d0d0 1px solid; padding: 4px; width: 125px; font-family: Arial; height: 20px; color: #545454; font-size: 13px;}
+.textaciklatr{width:500px;height:100px; font-family:Verdana;font-size:12px; font-weight:normal;}
+.textaciklatrcozum{width:400px;height:100px; font-family:Verdana;font-size:12px; font-weight:normal;}
+.textacikla_iletyorum{border: #d0d0d0 1px solid; border-radius:5px; padding: 4px; width: 600px; font-family: Arial; height: 100px; color: #545454; font-size: 13px;}
+/****** form textbox bitiş *****/
+
+/*iletisim baslangic*/
+
+.iletisim_sol{float: left; width:875px}
+.iletisim_orta{float: left; width:13px}
+.iletisim_sag{float: left; width:249px}
+
+
+.iletisim_solbosluk{float: left; width: 4px}
+.iletisim_resim{float: left; width: 450px}
+.iletisim_ortabosluk{float: left; width: 24px}
+.iletisim_bilgiler{float: left; width:410px}
+
+.iletisim_harita{}
+.iletisim_rehber{}
+.iletisim_resimdetay{Width:237px; Height:247px}
+/*iletisim bitis*/
+
+/* projeler başlangıç */
+.projeler_projeturleridatalist{float: left; width: 700px}
+.projeler_projekategorileri{float: left; width:458px}
+.projeler_projeturlerimenu{font-family: Arial; font-weight: bold; font-size: 14px;color: #03316f}
+.projeler_projeturlerimenu:hover{font-family: Arial; font-weight: bold; font-size: 14px;color: #03316f}
+.projeler_projeturleriyazi{font-family: Arial; font-size: 18px;font-weight: bold; color: #03316f}
+.projeler_projeturleriyazi:hover{font-family: Arial; font-size: 18px;font-weight: bold; color: #03316f}
+.projeler_menuyazi{font-family: Arial; font-weight: bold;font-size: 12px; color: #03316f}
+.projeler_menuyazi:hover{font-family: Arial; font-weight: bold;font-size: 12px; color: #03316f}
+.projeler_datalist{width: 382px; height: 243px; float: left}
+/* projeler bitiş */
+
+
+/*meclis kararları başlangıç*/
+.mecliskararlari_baslangictarihi{float: left; color: #00669d; font-family:Ozel_b; font-size:25px; padding-right:10px; line-height: 35px; }
+.mecliskararlari_baslangictarihigiris{float: left; padding-right:35px}
+.mecliskararlari_bitistarihi{float: left; color: #00669d; font-family:Ozel_b;  font-size:25px; padding-right:10px; line-height: 35px;}
+.mecliskararlari_bitistarihigiris{float: left; padding-right:35px}
+.mecliskararlari_tur{float: left; padding-right:10px}
+.mecliskararlari_btnlistele{float: left;}
+.mecliskararlari_detay1{float:left; width: 15%; font-family: Ozel_b; font-size: 18px;color: #0d82a9}
+.mecliskararlari_detay2{float:left; width: 85%;}
+.mecliskararlari_detay3{float:left; width: 85%;}
+/*meclis kararları bitiş*/
+
+
+/*formlar başlangıç*/
+.form_sutun1{ width:825px; float:left}
+.form_sutun2{ width:30px; float:left}
+.form_sutun3{ width:254px; float:left}
+
+
+.tb_form{border: #d0d0d0 1px solid; padding: 4px 0 0 15px; width: 500px; font-family: Arial; height: 25px; color: #545454; font-size: 16px; -webkit-border-radius: 70px;-moz-border-radius: 70px;border-radius: 70px;}
+.tb_form_genislikyok{border: #d0d0d0 1px solid; padding: 4px; font-family: Arial; height: 25px; color: #545454; font-size: 16px; -webkit-border-radius: 70px;-moz-border-radius: 70px;border-radius: 70px;}
+.tb_form2{border: #d0d0d0 1px solid; padding: 4px; width: 401px; font-family: Arial; height: 81px; color: #545454; font-size: 16px; -webkit-border-radius: 70px;-moz-border-radius: 70px;border-radius: 70px;}
+.tb_form3{border: #d0d0d0 1px solid; padding: 4px; width: 401px; font-family: Arial; height: 25px; color: #545454; font-size: 16px; -webkit-border-radius: 70px;-moz-border-radius: 70px;border-radius: 70px;}
+.tb_form_adres{width:410px;height:100px; font-family:Verdana;font-size:12px; font-weight:normal; -webkit-border-radius: 70px;-moz-border-radius: 70px;border-radius: 70px;}
+.form_dll{ color:#545454; font-size:17px; border:1px solid #d0d0d0; width:500px; height:52px; -webkit-border-radius: 70px;-moz-border-radius: 70px;border-radius: 70px; padding-left:15px}
+.formsatir{font-family: Ozel; color: #3a3a3a; font-size: 13px; height:33px}
+.formsatir2{font-family: Ozel; color: #3a3a3a; font-size: 13px; height:33px}
+.formsatir_aralik{height:6px}
+.formlbid{border: solid 1px #cdcdcd; padding:5px 0 0 5px; color:#545454; font-weight:normal; width:409px; height:34px; font-family:Ozel; font-size:16px}	 
+.formlbguvenlik{border: solid 1px #cdcdcd; padding:5px 0 0 5px; color:#545454; font-weight:normal; width:409px; height:34px; font-family:Ozel; font-size:16px}
+.formsatirmesaj{font-family: Ozel; color: #3a3a3a; font-size: 13px; height:33px}
+.formsatirmesaj:hover{font-family: Ozel; color: #3a3a3a; font-size: 13px; height:33px}
+.form_td1{padding-left: 5px; width:25%;  font-weight:bold;  font-size:18px; color:#757575}
+.form_td2{ width:1%}
+.form_td3{ width:74%; font-family:Ozel; font-size:16px}
+.form_not{color: #000000; font-family: Ozel; font-size: 16px}
+.form_ustmesaj{ width:625px}
+
+.baslik_y{ font-weight:bold;  font-size:18px; color:#757575}
+/*formlar bitiş*/
+
+/*kurumsal başlangıç*/
+.kurumsaldetay_resim{width: 866px;}
+.kurumsaldetay_bosluk{width: 20px}
+.kurumsaldetay_aciklama{width: 866px; text-align: justify; line-height: 18px}
+.kurumsalktegoridetay_sol{float: left; width: 215px;}
+.kurumsalktegoridetay_bosluk{float: left; width: 20px;}
+.kurumsalktegoridetay_sag{float: left;width: 672px; text-align: justify; line-height: 18px}
+.kurumsaldetayyazi_b{ font-family:Ozel_b; font-size:15px}
+.kurumsaldetayyazi{ font-family:Ozel; font-size:15px}
+
+/*kurumsal bitiş*/
+
+
+/*video baslangic*/
+.video_analiz1{float: left; }
+.video_analiz2{float: left; }
+.video_analiz3{float: left; }
+.video_analiz4{float: left; }
+.video_bos{float: left; width: 24px;}
+.videoanaliz_genislik{width:265px}
+/*video bitiş*/
+
+
+/*bebekler-nikahlar başlangıç*/
+.yenidoganlar_sol{float: left; width:938px}
+.yenidoganlar_orta{float: left; width:13px}
+.yenidoganlar_sag{float: left; width:249px}
+.yenidoganlardetay_sol{float: left; width:400px}
+.yenidoganlardetay_sag{float: left; width:50%}
+/*bebekler-nikahlar bitiş*/
+
+/*nenerede başlangıç*/
+.nenerede_suz{float: left;}
+.nenerede_bosluk1{float: left;width: 10px}
+.nenerede_bosluk2{float: left;width: 50px}
+.nenerede_suzyukseklik1{height: 65px}
+.nenerede_suzyukseklik2{height: 5px}
+.nenerededetay_harita{width: 100%}
+/*nenerede bitiş*/
+
+
+/* vefat edenler başlangıç */
+.vefatedenlerliste_sol{float: left; width: 866px}
+.vefatedenlerliste_orta{float: left; width: 30px}
+.vefatedenlerliste_sag{float: left; width:249px }
+.vefatedenlerdetay_genislik1{width: 20%}
+.vefatedenlerdetay_genislik2{width: 80%}
+/* vefat edenler bitiş */
+
+/* sorucevap başlangıç */
+.sorucevap_sol{float: left; width: 866px}
+.sorucevap_orta{float: left; width: 30px}
+.sorucevap_sag{float: left ; width:240px}
+/* sorucevap bitiş */
+
+/* hizmet rehberi başlangıç */
+.hizmetrehberi_sol{float: left; width: 875px}
+.hizmetrehberi_orta{float: left; width: 13px}
+.hizmetrehberi_sag{float: left; width:249px }
+/* hizmet rehberi  bitiş */
+
+/*ihaleyonetimi başlangıç*/
+.ihaleyonetimi_sol{float: left;width: 875px}
+.ihaleyonetimiorta{float: left;width: 13px}
+.ihaleyonetimi_sag{float: left; width:249px}
+.ihaledetay_genislik1{float: none;width: 25%}
+.ihaledetay_genislik2{float: none;width: 75%}
+/*ihaleyonetimi bitiş*/
+
+/*dokuman başlangıç*/
+.dokumanliste_sol{float: left;width: 875px}
+.dokumanliste_orta{float: left;width: 13px}
+.dokumanliste_sag{float: left; width:249px}
+
+/*dokuman bitiş*/
+
+/*duyuru başlangıç*/
+.duyuruarsiv_sol{float: left;width: 875px}
+.duyuruarsiv_orta{float: left;width: 13px}
+.duyuruarsiv_sag{float: left; width:249px}
+
+
+/*duyuru bitiş*/
+
+/*hava durumu başlangıç*/
+.havadurumu_font{font-size:16px}
+/*hava durumu bitiş*/
+
+/*anket*/
+.anketsoru{color: #364954; font-size: 15px}
+.anketcevap{color: #364954; font-size: 15px}
+.secenek{color: #364954; font-size: 15px;}
+.uyari{color:Red; font-size: 15px; }
+/*anket*/
+
+/*********sabitler******************/
+/**********silme*******************/
+/*********sabitler*****************/
+/**********silme*******************/
+/*********sabitler******************/
+
+.haberdortlu1{ display:block; width: 100%; height: 797px; margin: 0px; padding: 0px} 
+.haberdortlu2{ display:none; width: 100%; height: 797px; margin: 0px; padding: 0px} 
+
+ .haberdortlu3{width:1450px; margin-left:100px}
+ .baskanustbosluk{height: 280px}
+ .baskansolbosluk{padding-left: 710px}
+ .baskanarkaplan{background: url(/upload/tr/tasarim/web/baskan2.jpg)}
+ 
+ .tanitimlar{width: 100%; height: 533px; margin: 0px; padding: 0px}
+ .projelerarabosluk{height: 31px}
+ .iletisimsol{background: url(/upload/tr/tasarim/web/iletisimsol.jpg) left top; width: 752px}
+ .iletisimframe{width:1300px}
+ 
+ 
+ .videoarkaplan{background: url(/upload/tr/tasarim/web/video_back2.jpg)}
+ .videoustbosluk{height: 70px}
+ .videosolbosluk{padding-left: 358px}
+.videoaltarabosluk{height: 70px}
+
+
+
+.fotoust{ height:418px}
+.fotoalt{ height:379px}
+
+.baskanmenusolbosluk{ padding-left:550px}
+.haberdortlusolbutonlar{ width:344px; padding: 150px 0 0 0px;}
+.projeframe{width: 100%; height: 385px; margin: 0px; padding: 0px}
+.iletisimframe{width:1200px; height:485px;}
+.iletisimsol{background: url(/upload/tr/tasarim/web/iletisimsol.jpg) left top; width: 752px}
+
+.ortabanyuksek{ display:block}
+.ortaban{ display:none}
+
+.iletisimyuksek{ display:block}
+.iletimmm{ display:none}
+
+.projeeskihaberslider{width: 100%; height: 385px;}
+.baskanustbosluk2{ display:none}
+
+.tanyuksek{ display:block}
+.tann{ display:none}
+
+.ebelediyeyuksek{ display:block}
+.ebelediyeee{ display:none}
+ .haber_script_web{ border:1px solid #ff0000; display:none}
+
+@media only screen and (max-width: 1500px)
+{
+.haber_script{ display:none;}
+               
+.arkaplanbaskan{background: url(/upload/tr/tasarim/web/baskan_back.jpg) no-repeat left top; background-size: contain; height: 148px; border:1px solid #ff0000}      
+}
+@media only screen and (max-width: 1700px)
+{
+.haber_script{ display:none;}
+               
+.arkaplanbaskan{background: url(/upload/tr/tasarim/web/baskan_back.jpg) no-repeat left top; background-size: contain; height: 448px; }      
+}
+
+@media only screen and (max-width: 450px)
+{
+.headermaster{ display:none}
+.baskanresponsive{ display:block}        
+
+
+ }

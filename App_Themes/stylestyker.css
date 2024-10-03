@@ -1,0 +1,68 @@
+.sticky-container{
+		/*background-color: #333;*/
+		padding: 0px;
+		margin: 0px;
+		position: fixed;
+		right: 0px;
+		bottom:45px;
+		width: 100px;
+		z-index:9999;
+		
+	}
+
+	.sticky li{
+		list-style-type: none;
+		background-color: #01aef0;
+		color: #ffffff;
+		height: 50px;
+		 padding:12px 0 0 17px;
+	
+		-webkit-transition:all 0.25s ease-in-out;
+		-moz-transition:all 0.25s ease-in-out;
+		-o-transition:all 0.25s ease-in-out;
+		transition:all 0.25s ease-in-out;
+		cursor: pointer;
+		 
+
+	}
+
+	.sticky li:hover{
+		/**margin-left: -115px;
+		 padding-right:135px
+		
+		**/
+		
+	}
+
+	.sticky li img{
+		float: left;
+		margin: 5px 5px;
+		margin-right: 10px;
+	
+	}
+
+	.sticky li p{
+		padding: 0px;
+		margin: 0px;
+		color: #ffffff;
+		font-family: Ozel_b;
+	
+		
+		font-size: 18px;
+		padding-top: 13px;
+
+	}
+	.sticky li p a 
+	{
+	color: #ffffff;
+	 font-weight:normal;
+		font-family: Ozel_b;
+		
+	
+	}
+	** fork icon**/
+	.fork{
+		position: absolute;
+		top:0px;
+		left: 0px;
+		}

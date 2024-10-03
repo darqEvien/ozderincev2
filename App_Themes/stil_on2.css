@@ -1,0 +1,94 @@
+.search-input
+{
+    display: block;
+    width: 55%;
+    padding: 15px 20px;
+    font-family: "Ozel_b";
+    font-size: 18px;
+    color: #222;
+    text-indent: 35px;
+    border: 2px solid #eee;
+    background-repeat: no-repeat;
+    background-image: url(/upload/tr/tasarim/yenidoganlar/search.png);
+    background-position: left 15px center;
+    resize: none;
+    -webkit-transition: all ease-in-out .3s;
+    -o-transition: all ease-in-out .3s;
+    transition: all ease-in-out .3s;
+}
+.search-input:hover
+{
+    background-image: url(/upload/tr/tasarim/yenidoganlar/search_hover.png);
+    border-color: #ccc;
+}
+.search-input:focus
+{
+    width: 70%;
+    background-image: url(/upload/tr/tasarim/yenidoganlar/search_focus.png);
+    border-color: #005aaa;
+}
+
+.btn
+{
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn
+{
+    transition: none;
+}
+
+.btn-success
+{
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+.btn-success:hover
+{
+    color: #fff;
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+.btn-success.focus, .btn-success:focus
+{
+    box-shadow: 0 0 0 .2rem rgba(40, 167, 69, .5);
+}
+.btn-success.disabled, .btn-success:disabled
+{
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+.btn-success:not(:disabled):not(.disabled).active, .btn-success:not(:disabled):not(.disabled):active, .show > .btn-success.dropdown-toggle
+{
+    color: #fff;
+    background-color: #1e7e34;
+    border-color: #1c7430;
+}
+.btn-success:not(:disabled):not(.disabled).active:focus, .btn-success:not(:disabled):not(.disabled):active:focus, .show > .btn-success.dropdown-toggle:focus
+{
+    box-shadow: 0 0 0 .2rem rgba(40, 167, 69, .5);
+}
+.btn-group-lg > .btn, .btn-lg
+{
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    margin-left: 45px;
+}

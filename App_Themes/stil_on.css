@@ -1,0 +1,451 @@
+/*@font-face{font-family: "Ozel"; src: url(/ayarlar/yazitipi/BebasNeue.ttf)}
+@font-face{font-family: "Ozel_b"; src: url(/ayarlar/yazitipi/PT_SANS_B.TTF)}*/
+@font-face{font-family: "Ozel"; src: url(/ayarlar/yazitipi/PT_SANS.TTF)}
+@font-face{font-family: "Ozel_b"; src: url(/ayarlar/yazitipi/PT_SANS_B.TTF)}
+@font-face{font-family: "PTSans"; src: url(/ayarlar/yazitipi/PT_Sans-Web-Regular.ttf)}
+
+/*
+@font-face{font-family: "Ozel2"; src: url(/ayarlar/yazitipi/00297.TTF);}
+@font-face{font-family: "Ozel3"; src: url(/ayarlar/yazitipi/MyriadPro-Cond.otf);}
+@font-face{font-family: "Ozel4"; src: url(/ayarlar/yazitipi/00370.ttf);}
+@font-face{font-family: "Ozel5"; src: url(/ayarlar/yazitipi/00289.ttf);}*/
+
+body{ font-family:  Ozel; font-size:100%; font-weight:normal; margin:0px; padding:0px; }
+div{font-family:Ozel;}
+a{font-family:  Ozel; font-size:15px; text-decoration: none; cursor:pointer}
+a:hover{font-family:  Ozel; font-size:15px; text-decoration: none; cursor:pointer}
+/**span{font-family:  Ozel; color: #3a3a3a; font-size:15px; text-decoration: none; cursor:pointer}**/
+	
+img
+{
+    max-width: 100%;
+    max-height: 100%;
+    border: 0;
+    margin: 0; 
+    padding: 0; 
+    vertical-align:top
+}
+
+.resimgolge {
+  width: 100%;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+.eklidosyabaslik {
+}
+
+/**
+input[type="text"]{
+outline: none;
+box-shadow: 0px 0px 5px #f0f0f0;
+border:1px solid #5AB0DB;
+border-radius: 5px;
+height: 30px; 
+width:200px;
+}
+
+input[type="text"]:focus{
+outline: none;
+box-shadow: 0px 0px 5px #f0f0f0;
+border:1px solid #5AB0DB;
+border-radius: 5px;
+height: 30px; 
+width:200px;
+
+}
+
+input[type="text"]:hover{
+border: 1px solid #5AB0DB;
+border-radius: 5px;
+height: 30px; 
+width:200px;
+box-shadow: 0px 0px 5px #f0f0f0;
+
+}
+
+input[type="text"]:focus:hover{
+outline: none;
+box-shadow: 0px 0px 5px #f0f0f0;
+border:1px solid #5AB0DB;
+border-radius:0;
+height: 30px; 
+width:200px;
+
+}    ​
+**/
+
+
+ .check_radio_space tr input
+        {
+            margin-right: 10px;
+            padding-right: 10px;
+        }
+        
+.butonhover:hover{ opacity: 0.6; filter: alpha(opacity=60);}
+.butonhover2:hover{  color:#152a53}
+/**input{-webkit-appearance: none;}
+input[type="button"]{ border:1px solid #9e9e9e}
+
+ textarea,select,input[type="text"],input[type="button"],input[type="submit"] {-webkit-appearance: none !important; border-radius: 0;} **/
+
+.genel_arkaplan{ width:100%; }
+.genel_arkaplan_ic{ width:1067px;}
+.genel_arkaplan_ic_ic{ width:1002px;}
+.genel_arkaplan2{ width:100%; }
+.genel_arkaplan_ic2{/* background-color:White*/}
+
+.dizinyol{font-family: Arial; font-size: 12px; color: #477ea2; }
+.dizinyol:hover{font-family: Arial; font-size: 12px; color: #477ea2;}
+
+.lnk{font-family: Ozel;font-size: 15px; color: #3a3a3a; text-decoration: none;}
+
+.lnk:hover{font-family: Ozel;font-size: 15px;color: #388dbb;text-decoration: none;}
+
+.dlist_kategori_back_y{background: url(/image/web/kurumsal_kat_back.gif) no-repeat left top; width:263px;  height: 81px}
+.dlist_kategori_dokuman{background: url(/image/web/dokuman_kategori_back.gif) no-repeat left top; width:641px;  height: 136px}
+
+.dlist_kategori_back_kurumsal{background: url(/image/web/kurumsal_kat.gif) no-repeat left top; width:287px;  height: 36px}
+.dlist_kategori_baslik_kurumsal{color: #136a96; font-size: 14px; font-family:Arial;  text-decoration: none; cursor: pointer}
+.dlist_kategori_baslik_kurumsal:hover{color: #136a96; font-size: 14px; font-family:Arial;  text-decoration: none; cursor: pointer}
+  
+.dlist_kategori_baslik_dokuman{color: #2273ad; font-size: 14px; font-family:Arial; font-weight:bold; text-decoration : none; cursor:pointer;display: block;
+overflow: hidden;height:48px;padding:1px;line-height:26px  }
+
+.dlist_kategori_baslik_y{color: #0171af; font-size: 14px; font-family:Arial;  text-decoration: none; cursor: pointer}
+.dlist_kategori_ozet_y{color: #0171af; font-size: 13px; font-family:Arial; text-decoration: none; cursor: pointer}
+
+.dlist_icerik_kat_baslik{color: #135ca6; font-size: 16px; font-family:Arial; font-weight: bold; text-decoration: none; cursor: pointer}
+
+.dlist_kategori_ozet{color: #3a3a3a; font-family: Arial; font-size: 13px; cursor: pointer}
+
+.dlist_icerik_back{background: url(/image/web/icerik_back.gif) no-repeat left top; width:641px; height: 82px; }
+.dlist_icerik_baslik{font-family: Arial;font-size: 13px;color: #135ca6; text-decoration: none; font-weight: bold;}
+.dlist_icerik_baslik:hover{font-family: Arial;font-size: 13px;color: #135ca6; text-decoration: none; font-weight: bold;}
+
+.dlist_icerik_baslikdokuman{color: #0069ce; font-family: Arial; font-size: 13px;  text-decoration: none; cursor: pointer}
+.dlist_icerik_baslikdokuman:hover{color: #0069ce; font-family: Arial; font-size: 13px;  text-decoration: none; cursor: pointer}
+
+.dlist_iceriksosyalaglar_back{background: url(/image/genel/icerik_back_sosyalaglar.gif) no-repeat left top; width:398px; height: 72px; margin-bottom:10px;  margin-right:10px}
+
+.dlist_icerik_dokuman{background: url(/image/genel/icerik_back.gif) no-repeat left top; width:280px; height: 45px; margin-bottom:10px;  margin-right:10px}
+
+.dlist_icerikbolumlerimiz_back{background: url(/image/web/icerik_back_bolumlerimiz.gif) no-repeat left top; width:641px; height: 86px; margin-bottom:1px; }
+
+.dlist_iceriksosyalaglar_baslik{color: #0085c1; font-family: Arial; font-size: 16px;   text-decoration: none; cursor: pointer}
+.dlist_iceriksosyalaglar_baslik:hover{color: #0085c1; font-family: Arial; font-size: 16px;   text-decoration: none; cursor: pointer}
+
+.dlist_iceriksosyalaglar_baslik_ar{color: #0085c1; font-family: Arial; font-size: 25px;   text-decoration: none; cursor: pointer}
+
+.dlist_kategori_back_rehber{background: url(/image/genel/kategori_back_rehber2.gif) no-repeat left top; width:315px; height: 57px}
+
+.dlist_kategori_back_rehber_baslik{color: #2273ad; font-size: 13px; font-family: Arial; font-weight: bold; text-decoration: none; cursor: pointer}
+.dlist_kategori_back_rehber_baslik:hover{color: #2273ad; font-size: 13px; font-family: Arial; font-weight: bold; text-decoration: none; cursor: pointer}
+
+.baslikliste{color: #072e54; font-family: Arial; font-size: 35px; font-weight: bold;}
+.baslik{color: #415771; font-family: Arial; font-size: 14px; font-weight: bold; }
+
+.baslik2{color: #415771; font-family: Arial; font-size: 13px;}
+
+
+
+#baslik{height: 33px; padding-left:7px}
+
+.baslik_g{color: #136c97; font-family: Arial; font-size: 16px; font-weight: bold;}
+#baslik_g{height: 33px;}
+
+
+
+.gvsatir{font-family: Arial; font-size: 12px; color: #555555; border-bottom:1px #E4E4E4 solid; padding:4px 3px 3px 3px; height:25px }
+
+.gvbas{font-family: Arial; font-size: 12px; font-weight:bold; color: #545454; text-decoration:none; border-left:1px #ffffff solid; border-top:1px #ffffff solid; padding:4px 3px 3px 6px; background:#e6e6e6; height:25px; font-size:12px;}
+
+#td_5{width:5%}
+#td_10{width:10%}
+#td_15{width:15%}
+#td_20{width:20%}
+#td_25{width:25%}
+#td_30{width:30%}
+#td_35{width:35%}
+#td_40{width:40%}
+#td_45{width:45%}
+#td_50{width:50%}
+#td_55{width:55%}
+#td_60{width:60%}
+#td_65{width:65%}
+#td_70{width:70%}
+#td_75{width:75%}
+#td_80{width:80%}
+#td_85{width:85%}
+#td_90{width:90%}
+#td_95{width:95%}
+#tbl_100{width:100%}
+
+.textara{width:250px;height:15px;border:#d9d6d6 solid 2px}
+.butonara{}
+.fileup{ background-color:#f0f0f0; border:solid 1px #c0c0c0;  font-size:11px; font-family:Arial; margin:3px;padding:1px}
+.filebuton{ background-color:#D4D0C8; border:solid 1px #bdbdbd;  font-size:12px; font-family:Arial; margin:3px; }
+
+/*.form_sutun1{ width:668px}
+.form_sutun2{ width:35px}
+.form_sutun3{ width:300px}*/
+
+.butonstil{ padding: 0 10px} 
+
+.tdtr{background-color:#f1eeee}
+.tdtr1{background-color:#f9f8f8}
+
+
+.tr1{background-color:#f1eeee; font-weight:bold}
+.tr2{background-color:#f9f8f8}
+
+.tdd{color:#434343; font-family:Arial; font-size:15px; font-weight:bold}
+.td4{border-bottom: solid 5px #d4d4d4 }
+.td2{border:1px solid #d7d7d7; padding:20px}
+.td3{border-bottom: solid 2px #d4d4d4; padding-right: 10px}
+.td5{ background-color: #F2F2F2;}
+.td6{width: 50%; padding: 10px}
+
+.yaziacikla{color:#2c374b; Width:100%; font-family: Ozel;  font-size:18px; line-height:27px}
+.yaziacikla2{color:#2c374b; font-family: Ozel;  font-size:18px; line-height:27px}
+
+.kucukbaslik{color:#3d393a; font-weight:bold}
+
+.modalBackground { background-color:#FFFFFF; filter:alpha(opacity=50); -moz-opacity:0.5;} 
+
+.tarih{width:100px; height:15px; font-size:20px}
+
+.tarih-input
+        {
+            display: block;
+            font-family: Ozel_b;
+            font-size: 18px;
+            color: #222;
+            border: 2px solid #eee;
+            background-repeat: no-repeat;
+            background-position: left 15px center;
+            resize: none;
+            -webkit-transition: all ease-in-out .3s;
+            -o-transition: all ease-in-out .3s;
+            transition: all ease-in-out .3s;
+        }
+.tarih-input:hover
+        {
+            border-color: #ccc;
+        }
+.tarih-input:focus
+        {
+            border-color: #005aaa;
+        }
+
+.saat{width:50px;height:15px}
+
+
+.etakvimbaslik{font-size:13px; font-family:Arial; color:#000080; font-weight:bold; text-decoration:none;}
+.etakvimbaslik :hover{font-size:13px; font-family:Arial; color:#000080; font-weight:bold; text-decoration:none;}
+
+
+
+				/**.dlist_icerikbolumlerimiz_baslik{font-family: Arial;font-size: 18px;color: #135ca6; text-decoration: none;}
+				.dlist_icerikbolumlerimiz_baslik:hover{font-family: Arial;font-size: 18px;color: #135ca6; text-decoration: none;}
+				**/
+.gridheader{font-size:16px; font-family:Ozel_b; border: 1px solid #e2e2e2; height:35px  }
+
+.gridsatir{ font-family: Arial; font-size: 12px; color: #363636;
+border:1px #e7e7e7 solid; height:29px; background-color:#ffffff }
+
+.gridsatir1{ font-family: Arial; font-size: 12px; color: #363636;
+border:1px #e7e7e7 solid; height:29px; background-color:#ffffff }
+
+.gridsatirsayfalamasiz{ font-family: Arial; font-size: 12px; color: #363636;
+ height:29px; background-color:#ffffff }
+
+.gridsatir1sayfalamasiz{ font-family: Arial; font-size: 12px; color: #363636;
+ height:29px; background-color:#ffffff }
+
+
+gridsatirkayityok{ font-family: Arial; font-size: 12px; color: #363636;
+border:1px #b1d0e1 solid; height:29px; background-color:#ffffff }
+
+.gridbas{font-family: Ozel_b; font-size: 18px; color: #5f6a75; text-decoration:none; height:35px; 
+     border:1px solid #e7e7e7;  text-align:left;
+}
+
+.gridbas_sorting{font-family: Ozel_b; font-size: 16px; color: #225866; text-decoration:none; height:25px;  
+}
+
+.gridbas_sorting:hover{font-family: Ozel_b; font-size: 16px; color: #225866; text-decoration:none; height:25px; 
+}
+
+.genel
+    {
+        padding: 15px 0 0 50px;
+    }
+    .soru
+    {
+        color: #5f4a5b;
+        font-family: Arial;
+        font-size: 13px;
+    }
+   
+    
+.main-container.page {
+    }
+
+        .main-container.page .page-head {
+            padding-top: 18px;
+            border-bottom: 1px solid #d7d7d7;
+            color: #03316f;
+        }
+
+            .main-container.page .page-head .title {
+                display: inline-block;
+                padding-bottom: 6px;
+                position: relative;
+            }
+
+                .main-container.page .page-head .title:after {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 2px;
+                    background: #c3c3c3;
+                    content: '';
+                }
+
+            .main-container.page .page-head.subtitle .title {
+            }
+
+    .baslik_alt
+    {
+        color: #333333;
+    }
+    .baslik_ana
+    {
+        color: #454545;
+        font-size: 16px;
+        font-family: Ozel_b;
+    }
+    .baslik_ana:hover
+    {
+        color: #454545;
+        font-size: 16px;
+        font-family: Ozel_b;
+    }
+    .card
+    {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+    }
+    .after-loop
+    {
+    }
+    .after-loop a.after-loop-item
+    {
+        color: #fff;
+        position: relative;
+        transition: .15s box-shadow ease,.15s transform ease;
+        -moz-transition: .15s box-shadow ease,.15s transform ease;
+        cursor: pointer;
+    }
+    .after-loop a.after-loop-item .card-body i
+    {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 4rem;
+        color: rgba(255,255,255,.2);
+        transition: .15s all ease;
+    }
+    .after-loop a.after-loop-item .card-body h4
+    {
+        font-weight: 700;
+    }
+    .after-loop a.after-loop-item .card-body p
+    {
+        color: rgba(255,255,255,.7);
+        font-weight: 600;
+    }
+    .after-loop a.after-loop-item:hover
+    {
+        text-decoration: none;
+    }
+    .after-loop .card-themes
+    {
+        background-color: #dd3d31;
+    }
+    .after-loop .card-templates
+    {
+        background-color: #2092ed;
+    }
+    .after-loop .card-snippets
+    {
+        background-color: #ffc107;
+    }
+    .after-loop .card-guides
+    {
+        background-color: #28a745;
+    }
+    @media (min-width:992px)
+    {
+        .after-loop a.after-loop-item:hover
+        {
+            transform: translateY(-0.25rem);
+            box-shadow: 0 2.25rem 1.5rem -1.5rem rgba(33,37,41,.3),0 0 1.5rem .5rem rgba(33,37,41,.05) !important;
+        }
+        .after-loop a.after-loop-item:hover .card-body i
+        {
+            left: 1.5rem;
+            font-size: 3rem;
+        }
+        .after-loop a.after-loop-item:active
+        {
+            transform: none;
+            box-shadow: 0 2rem 1.5rem -1.5rem rgba(33,37,41,.15),0 0 1.5rem .5rem rgba(33,37,41,.05) !important;
+        }
+    }
+    .galeri-liste ul li
+    {
+        -webkit-transition: .3s;
+        transition: .3s;
+        position: relative;
+        z-index: 1;
+    }
+    .galeri-liste ul li:before
+    {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background: rgba(205, 212, 218, 0.4);
+        z-index: -1;
+        width: 50%;
+        opacity: 0;
+        -webkit-transition: .3s;
+        transition: .3s;
+    }
+    .galeri-liste ul li:last-child a
+    {
+        border-bottom: none;
+    }
+    .galeri-liste ul li:hover:before
+    {
+        width: 100%;
+        opacity: 1;
+    }
+    .galeri-liste ul li a
+    {
+        display: block;
+        cursor: pointer;
+        position: relative;
+        text-decoration: none;
+        height: 60px;
+        padding-top: 20px;
+    }

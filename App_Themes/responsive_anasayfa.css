@@ -1,0 +1,11 @@
+.ust_responsive{ display:none}
+.headermaster{ display:block}
+
+@media only screen and (max-width: 450px)
+{
+ .haber_script_web{ display:none}
+ .ust_web{ display:none}
+.ust_responsive{ display:block}
+.headermaster{ display:none}
+ 
+}
